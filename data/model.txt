@@ -1,0 +1,644 @@
+#==============================================================================
+#
+# 『モデルビューワ』スクリプトファイル [model.txt]
+# Author : AKIRA TANAKA
+#
+#==============================================================================
+SCRIPT			# この行は絶対消さないこと！
+
+#------------------------------------------------------------------------------
+# 読み込むテクスチャ数
+#------------------------------------------------------------------------------
+NUM_TEXTURE = 12
+
+#------------------------------------------------------------------------------
+# 読み込むテクスチャファイル名
+#------------------------------------------------------------------------------
+TEXTURE_FILENAME = data/TEXTURE/field000.jpg			# [0]地面テクスチャ
+TEXTURE_FILENAME = data/TEXTURE/field001.jpg			# [1]地面テクスチャ
+TEXTURE_FILENAME = data/TEXTURE/field002.jpg			# [2]地面テクスチャ
+TEXTURE_FILENAME = data/TEXTURE/wall000.jpg				# [3]壁テクスチャ
+TEXTURE_FILENAME = data/TEXTURE/wall001.jpg				# [4]壁テクスチャ
+TEXTURE_FILENAME = data/TEXTURE/wall002.jpg				# [5]壁テクスチャ
+TEXTURE_FILENAME = data/TEXTURE/wall100.jpg				# [6]壁テクスチャ
+TEXTURE_FILENAME = data/TEXTURE/fence000.png			# [7]フェンステクスチャ
+TEXTURE_FILENAME = data/TEXTURE/sky000.jpg				# [8]空テクスチャ
+TEXTURE_FILENAME = data/TEXTURE/mountain000.png			# [9]山テクスチャ
+TEXTURE_FILENAME = data/TEXTURE/river000.jpg			# [10]川テクスチャ
+TEXTURE_FILENAME = data/TEXTURE/ground000.jpg			# [11]地面テクスチャ
+
+#------------------------------------------------------------------------------
+# 読み込むモデル数
+#------------------------------------------------------------------------------
+NUM_MODEL = 16
+
+#------------------------------------------------------------------------------
+# 読み込むモデルファイル名
+#------------------------------------------------------------------------------
+MODEL_FILENAME = data/MODEL/billboard000.x				# [0]ビルボード1
+MODEL_FILENAME = data/MODEL/billboard001.x				# [1]ビルボード2
+MODEL_FILENAME = data/MODEL/tower000.x					# [2]タワー
+MODEL_FILENAME = data/MODEL/building000.x				# [3]ビル1
+MODEL_FILENAME = data/MODEL/building001.x				# [4]ビル2
+MODEL_FILENAME = data/MODEL/building002.x				# [5]ビル3
+MODEL_FILENAME = data/MODEL/car000.x					# [6]車1
+MODEL_FILENAME = data/MODEL/car000.x					# [7]車2
+MODEL_FILENAME = data/MODEL/car000.x					# [8]車3
+MODEL_FILENAME = data/MODEL/airship000.x				# [9]飛行船
+MODEL_FILENAME = data/MODEL/enemy000.x					# [10]敵1
+MODEL_FILENAME = data/MODEL/enemy000.x					# [11]敵2
+MODEL_FILENAME = data/MODEL/enemy000.x					# [12]敵3
+MODEL_FILENAME = data/MODEL/drone000.x					# [13]ドローン
+MODEL_FILENAME = data/MODEL/star000.x					# [14]星
+MODEL_FILENAME = data/MODEL/platform000.x				# [15]台
+
+
+
+#------------------------------------------------------------------------------
+# 空情報
+#------------------------------------------------------------------------------
+SKYSET
+	TEXTYPE = 8			# テクスチャの種類
+	MOVE = 0.00002		# 回転量
+END_SKYSET
+
+#------------------------------------------------------------------------------
+# 山情報
+#------------------------------------------------------------------------------
+
+#------------------------------------------------------------------------------
+# 表示する地面の配置情報
+#------------------------------------------------------------------------------
+#--------------------------------------
+# [11]地面
+#--------------------------------------
+FIELDSET
+	TEXTYPE = 11		# テクスチャの種類
+	POS = 0 0 1600			# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 20 80			# 分割数(Ｘ/Ｚ)
+	SIZE = 60 60		# 大きさ(Ｘ/Ｚ)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 11		# テクスチャの種類
+	POS = 9aw0 0 1600			# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 20 80			# 分割数(Ｘ/Ｚ)
+	SIZE = 60 60		# 大きさ(Ｘ/Ｚ)
+END_FIELDSET
+#------------------------------------------------------------------------------
+# 表示する壁の配置情報
+#------------------------------------------------------------------------------
+#--------------------------------------
+# 
+#--------------------------------------
+
+
+
+#------------------------------------------------------------------------------
+# 表示するモデルの配置情報
+#------------------------------------------------------------------------------
+#-------------------------------------
+# [0]ビルボード1(横)
+#-------------------------------------
+MODELSET
+	TYPE = 0			# 種類
+	POS = -200 650 860		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+#-------------------------------------
+# [1]ビルボード2(縦)
+#-------------------------------------
+MODELSET
+	TYPE = 1			# 種類
+	POS = 140 30 130		# 位置
+	ROT = 0 90 0			# 向き
+END_MODELSET
+
+
+#-------------------------------------
+# [2]タワー
+#-------------------------------------
+MODELSET
+	TYPE = 2			# 種類
+	POS = 0 0 2500		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+#-------------------------------------
+# [3]ビル1
+#-------------------------------------
+MODELSET
+	TYPE = 3			# 種類
+	POS = 120 0 -310		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 0 0 -310		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -120 0 -310		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 200 0 -200		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -200 0 -200		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 200 0 -90		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -200 0 -90		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 200 0 20		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -200 0 20		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 200 0 130		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -200 0 130		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 250 0 240		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 250 0 350		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 200 0 460		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 90 0 460		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -20 0 460		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -250 0 240		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -250 0 350		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -250 0 460		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -250 0 460		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -250 0 570		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 250 0 570		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 3			# 種類
+	POS = 140 0 570		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -250 0 680		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 250 0 680		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -140 0 680		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -250 0 790		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 250 0 790		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -250 0 900		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -125 0 900		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 0 0 900		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 125 0 900		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 250 0 900		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 0 0 1010		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 0 0 1120		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 0 0 1340		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+
+#-------------------------------------
+# [4]ビル2
+#-------------------------------------
+
+MODELSET
+	TYPE = 4			# 種類
+	POS = 300 0 -40		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 4			# 種類
+	POS = 300 0 -100		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 4			# 種類
+	POS = 300 0 -160		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+
+
+MODELSET
+	TYPE = 4			# 種類
+	POS = -300 0 -40		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 4			# 種類
+	POS = -300 0 -100		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 4			# 種類
+	POS = -300 0 -160		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+
+
+MODELSET
+	TYPE = 4			# 種類
+	POS = 400 0 150		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 4			# 種類
+	POS = 400 0 90		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 4			# 種類
+	POS = 400 0 30		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+
+
+MODELSET
+	TYPE = 4			# 種類
+	POS = 340 0 370		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 4			# 種類
+	POS = 340 0 430		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 4			# 種類
+	POS = 340 0 490		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+
+
+
+MODELSET
+	TYPE = 4			# 種類
+	POS = -120 0 1000		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 4			# 種類
+	POS = -90 0 1130		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 4			# 種類
+	POS = 90 0 1210		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 4			# 種類
+	POS = 130 0 1120		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 4			# 種類
+	POS = 180 0 1020		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+#-------------------------------------
+# [5]ビル3
+#-------------------------------------
+MODELSET
+	TYPE = 5			# 種類
+	POS = 0 0 340		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+#-------------------------------------
+# [6]車1
+#-------------------------------------
+MODELSET
+	TYPE = 6			# 種類
+	POS = -150 0 340		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+#-------------------------------------
+# [9]飛行船
+#-------------------------------------
+MODELSET
+	TYPE = 9			# 種類
+	POS = -200 500 1000		# 位置
+	ROT = 0 90 0			# 向き
+END_MODELSET
+
+#-------------------------------------
+# [10]敵1
+#-------------------------------------
+MODELSET
+	TYPE = 10			# 種類
+	POS = 0 0 -50		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 10			# 種類
+	POS = -100 0 350		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+#-------------------------------------
+# [11]敵2
+#-------------------------------------
+
+#-------------------------------------
+# [12]敵3
+#-------------------------------------
+
+#-------------------------------------
+# [13]ドローン
+#-------------------------------------
+MODELSET
+	TYPE = 13			# 種類
+	POS = -160 150 400		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+#-------------------------------------
+# [14]星
+#-------------------------------------
+MODELSET
+	TYPE = 14			# 種類
+	POS = 0 10 0		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 14			# 種類
+	POS = 0 10 10		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 14			# 種類
+	POS = 0 10 20		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 14			# 種類
+	POS = 0 10 30		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 14			# 種類
+	POS = 0 10 40		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+
+
+MODELSET
+	TYPE = 14			# 種類
+	POS = -150 10 300		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 14			# 種類
+	POS = -150 10 310		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 14			# 種類
+	POS = -150 10 320		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 14			# 種類
+	POS = -150 20 330		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 14			# 種類
+	POS = -150 20 340		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 14			# 種類
+	POS = -150 20 350		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 14			# 種類
+	POS = -150 10 360		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 14			# 種類
+	POS = -150 10 370		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 14			# 種類
+	POS = -150 10 380		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+#-------------------------------------
+# [15]台
+#-------------------------------------
+MODELSET
+	TYPE = 15			# 種類
+	POS = 140 50 680		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 15			# 種類
+	POS = 140 100 735		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 15			# 種類
+	POS = 140 150 790		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+END_SCRIPT		# この行は絶対消さないこと！
