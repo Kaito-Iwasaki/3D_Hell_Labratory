@@ -30,7 +30,7 @@ TEXTURE_FILENAME = data/TEXTURE/ground000.jpg			# [11]地面テクスチャ
 #------------------------------------------------------------------------------
 # 読み込むモデル数
 #------------------------------------------------------------------------------
-NUM_MODEL = 16
+NUM_MODEL = 17
 
 #------------------------------------------------------------------------------
 # 読み込むモデルファイル名
@@ -51,6 +51,9 @@ MODEL_FILENAME = data/MODEL/enemy000.x					# [12]敵3
 MODEL_FILENAME = data/MODEL/drone000.x					# [13]ドローン
 MODEL_FILENAME = data/MODEL/star000.x					# [14]星
 MODEL_FILENAME = data/MODEL/platform000.x				# [15]台
+#MODEL_FILENAME = data/MODEL/player000.x				# [16]カービィ
+#MODEL_FILENAME = data/MODEL/item000.x					# [17]アイテム1
+MODEL_FILENAME = data/MODEL/item001.x					# [18]アイテム2
 
 
 
@@ -638,6 +641,13 @@ MODELSET
 	ROT = 0 0 0			# 向き
 END_MODELSET
 
+
+MODELSET
+	TYPE = 6			# 種類
+	POS = -150 400 700		# 位置
+	ROT = 0 -90 0			# 向き
+END_MODELSET
+
 #-------------------------------------
 # [9]飛行船
 #-------------------------------------
@@ -652,14 +662,20 @@ END_MODELSET
 #-------------------------------------
 MODELSET
 	TYPE = 10			# 種類
-	POS = 0 0 -50		# 位置
-	ROT = 0 0 0			# 向き
+	POS = -100 0 350		# 位置
+	ROT = 0 180 0			# 向き
 END_MODELSET
+
 
 MODELSET
 	TYPE = 10			# 種類
-	POS = -100 0 350		# 位置
-	ROT = 0 0 0			# 向き
+	POS = 0 0 700		# 位置
+	ROT = 0 220 0			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 10			# 種類
+	POS = 50 0 650		# 位置
+	ROT = 0 220 0			# 向き
 END_MODELSET
 
 #-------------------------------------
@@ -675,8 +691,8 @@ END_MODELSET
 #-------------------------------------
 MODELSET
 	TYPE = 13			# 種類
-	POS = -160 150 400		# 位置
-	ROT = 0 0 0			# 向き
+	POS = 30 60 650		# 位置
+	ROT = 0 130 0		# 向き
 END_MODELSET
 
 #-------------------------------------
@@ -756,17 +772,115 @@ MODELSET
 	ROT = 0 0 0			# 向き
 END_MODELSET
 
+
+
+
+
 MODELSET
 	TYPE = 14			# 種類
-	POS = -150 10 370		# 位置
+	POS = 140 80 680		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 14			# 種類
+	POS = 140 100 680		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 14			# 種類
+	POS = 140 120 680		# 位置
 	ROT = 0 0 0			# 向き
 END_MODELSET
 
 MODELSET
 	TYPE = 14			# 種類
-	POS = -150 10 380		# 位置
+	POS = 140 130 735		# 位置
 	ROT = 0 0 0			# 向き
 END_MODELSET
+MODELSET
+	TYPE = 14			# 種類
+	POS = 140 150 735		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 14			# 種類
+	POS = 140 170 735		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 14			# 種類
+	POS = 140 180 790		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 14			# 種類
+	POS = 140 200 790		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 14			# 種類
+	POS = 140 220 790		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 14			# 種類
+	POS = 0 200 940		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 14			# 種類
+	POS = 0 200 960		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 14			# 種類
+	POS = 0 200 980		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 14			# 種類
+	POS = 0 200 1000		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 14			# 種類
+	POS = 0 200 1020		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 14			# 種類
+	POS = 0 200 1040		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 14			# 種類
+	POS = 0 200 1060		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 14			# 種類
+	POS = 0 200 1080		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 14			# 種類
+	POS = 0 230 1175		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 14			# 種類
+	POS = 0 210 1225		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 14			# 種類
+	POS = 0 230 1275		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
 
 #-------------------------------------
 # [15]台
@@ -788,5 +902,29 @@ MODELSET
 	POS = 140 150 790		# 位置
 	ROT = 0 0 0			# 向き
 END_MODELSET
+
+MODELSET
+	TYPE = 15			# 種類
+	POS = 0 180 1225		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+#-------------------------------------
+# [16]カービィ
+#-------------------------------------
+MODELSET
+	TYPE = 10			# 種類
+	POS = 0 0 -50		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+#-------------------------------------
+# [17]アイテム1
+#-------------------------------------
+
+
+#-------------------------------------
+# [18]アイテム2
+#-------------------------------------
 
 END_SCRIPT		# この行は絶対消さないこと！
