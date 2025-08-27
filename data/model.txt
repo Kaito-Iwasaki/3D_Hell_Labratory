@@ -104,7 +104,7 @@ END_FIELDSET
 #-------------------------------------
 MODELSET
 	TYPE = 0			# 種類
-	POS = -200 650 860		# 位置
+	POS = -400 650 860		# 位置
 	ROT = 0 0 0			# 向き
 END_MODELSET
 
@@ -350,11 +350,159 @@ MODELSET
 	ROT = 0 0 0			# 向き
 END_MODELSET
 
+
+
+
 MODELSET
 	TYPE = 3			# 種類
 	POS = 0 0 1340		# 位置
 	ROT = 0 0 0			# 向き
 END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 125 0 1340		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -125 0 1340		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 250 0 1340		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -250 0 1340		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 250 0 1465		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -250 0 1465		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 250 0 1580		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -250 0 1580		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 250 0 1705		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -250 0 1705		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 250 0 1830		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -250 0 1830		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 250 0 1955		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -250 0 1955		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 325 0 2080		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -325 0 2080		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 400 0 2205		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -400 0 2205		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 400 0 2330		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -400 0 2330		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 400 0 2455		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -400 0 2455		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = 250 0 2455		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 3			# 種類
+	POS = -250 0 2455		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
 
 
 #-------------------------------------
@@ -495,7 +643,7 @@ END_MODELSET
 #-------------------------------------
 MODELSET
 	TYPE = 9			# 種類
-	POS = -200 500 1000		# 位置
+	POS = -400 500 1000		# 位置
 	ROT = 0 90 0			# 向き
 END_MODELSET
 
