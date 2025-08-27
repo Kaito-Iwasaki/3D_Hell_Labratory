@@ -167,7 +167,7 @@ Mesh {
    1.000000;1.000000;1.000000;;
    0.750000;0.750000;0.750000;;
    TextureFilename {
-    "C:\\Users\\student\\Documents\\3D表\現チーム制作素材\\テクスチャ\\screen000.png";
+    "data\\TEXTURE\\screen000.png";
    }
   }
  }
