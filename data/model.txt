@@ -997,7 +997,7 @@ END_MODELSET
 
 MODELSET
 	TYPE = 17			# Ží—Þ
-	POS = 100 240 1200	# ˆÊ’u
+	POS = 120 190 1350	# ˆÊ’u
 	ROT = 0 -180 0		# Œü‚«
 END_MODELSET
 
