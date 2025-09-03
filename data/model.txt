@@ -635,51 +635,38 @@ MODELSET
 END_MODELSET
 
 #-------------------------------------
-# [6]車1
+# [6,7,8]車
 #-------------------------------------
 #--------------
 # ステージ上
 #--------------
+#-------
+# [6]
+#-------
 MODELSET
 	TYPE = 6			# 種類
 	POS = -150 0 340		# 位置
 	ROT = 0 0 0			# 向き
 END_MODELSET
 
-#--------------
-# 背景
-#--------------
-MODELSET
-	TYPE = 7			# 種類
-	POS = 100 350 300		# 位置
-	ROT = 10 180 -40			# 向き
-END_MODELSET
-MODELSET
-	TYPE = 8			# 種類
-	POS = 120 320 260		# 位置
-	ROT = 10 180 -30			# 向き
-END_MODELSET
+#-------
+# [7]
+#-------
 
+#-------
+# [8]
+#-------
+
+#--------------
+# 背景オブジェ
+#--------------
+#-------
+# [6]
+#-------
 MODELSET
 	TYPE = 6			# 種類
 	POS = -150 400 700		# 位置
 	ROT = 20 -90 10			# 向き
-END_MODELSET
-
-MODELSET
-	TYPE = 6			# 種類
-	POS = 150 460 1000		# 位置
-	ROT = 0 0 40			# 向き
-END_MODELSET
-MODELSET
-	TYPE = 6			# 種類
-	POS = 180 420 1100		# 位置
-	ROT = 0 0 30			# 向き
-END_MODELSET
-MODELSET
-	TYPE = 6			# 種類
-	POS = 130 410 1080		# 位置
-	ROT = 0 0 40			# 向き
 END_MODELSET
 
 MODELSET
@@ -707,6 +694,39 @@ MODELSET
 	TYPE = 6			# 種類
 	POS = -260 550 2150		# 位置
 	ROT = 0 -50 -20			# 向き
+END_MODELSET
+
+#-------
+# [7]
+#-------
+MODELSET
+	TYPE = 7			# 種類
+	POS = 100 350 300		# 位置
+	ROT = 10 180 -40			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 7			# 種類
+	POS = 120 320 260		# 位置
+	ROT = 10 180 -30			# 向き
+END_MODELSET
+
+#-------
+# [8]
+#-------
+MODELSET
+	TYPE = 8			# 種類
+	POS = 150 460 1000		# 位置
+	ROT = 0 0 40			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 8			# 種類
+	POS = 180 420 1100		# 位置
+	ROT = 0 0 30			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 8			# 種類
+	POS = 130 410 1080		# 位置
+	ROT = 0 0 40			# 向き
 END_MODELSET
 
 #-------------------------------------
