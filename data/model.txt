@@ -43,8 +43,8 @@ MODEL_FILENAME = data/MODEL/building000.x				# [3]ビル1
 MODEL_FILENAME = data/MODEL/building001.x				# [4]ビル2
 MODEL_FILENAME = data/MODEL/building002.x				# [5]ビル3
 MODEL_FILENAME = data/MODEL/car000.x					# [6]車1
-MODEL_FILENAME = data/MODEL/car000.x					# [7]車2
-MODEL_FILENAME = data/MODEL/car000.x					# [8]車3
+MODEL_FILENAME = data/MODEL/car001.x					# [7]車2
+MODEL_FILENAME = data/MODEL/car002.x					# [8]車3
 MODEL_FILENAME = data/MODEL/airship000.x				# [9]飛行船
 MODEL_FILENAME = data/MODEL/enemy000.x					# [10]敵1
 MODEL_FILENAME = data/MODEL/enemy001.x					# [11]敵2
@@ -637,17 +637,76 @@ END_MODELSET
 #-------------------------------------
 # [6]車1
 #-------------------------------------
+#--------------
+# ステージ上
+#--------------
 MODELSET
 	TYPE = 6			# 種類
 	POS = -150 0 340		# 位置
 	ROT = 0 0 0			# 向き
 END_MODELSET
 
+#--------------
+# 背景
+#--------------
+MODELSET
+	TYPE = 7			# 種類
+	POS = 100 350 300		# 位置
+	ROT = 10 180 -40			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 8			# 種類
+	POS = 120 320 260		# 位置
+	ROT = 10 180 -30			# 向き
+END_MODELSET
 
 MODELSET
 	TYPE = 6			# 種類
 	POS = -150 400 700		# 位置
-	ROT = 0 -90 0			# 向き
+	ROT = 20 -90 10			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 6			# 種類
+	POS = 150 460 1000		# 位置
+	ROT = 0 0 40			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 6			# 種類
+	POS = 180 420 1100		# 位置
+	ROT = 0 0 30			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 6			# 種類
+	POS = 130 410 1080		# 位置
+	ROT = 0 0 40			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 6			# 種類
+	POS = -150 420 1300		# 位置
+	ROT = 0 0 -40			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 6			# 種類
+	POS = -180 380 1400		# 位置
+	ROT = 0 0 -30			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 6			# 種類
+	POS = -130 370 1380		# 位置
+	ROT = 0 0 -40			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 6			# 種類
+	POS = -130 650 2100		# 位置
+	ROT = 0 -90 -20			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 6			# 種類
+	POS = -260 550 2150		# 位置
+	ROT = 0 -50 -20			# 向き
 END_MODELSET
 
 #-------------------------------------
