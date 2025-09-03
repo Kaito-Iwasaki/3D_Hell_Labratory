@@ -51,7 +51,7 @@ MODEL_FILENAME = data/MODEL/enemy002.x					# [12]敵3
 MODEL_FILENAME = data/MODEL/drone000.x					# [13]ドローン
 MODEL_FILENAME = data/MODEL/star000.x					# [14]星
 MODEL_FILENAME = data/MODEL/platform000.x				# [15]台
-#MODEL_FILENAME = data/MODEL/player000.x				# [16]カービィ
+MODEL_FILENAME = data/MODEL/player000.x				# [16]カービィ
 #MODEL_FILENAME = data/MODEL/item000.x					# [17]アイテム1
 MODEL_FILENAME = data/MODEL/item001.x					# [18]アイテム2
 
@@ -913,7 +913,7 @@ END_MODELSET
 # [16]カービィ
 #-------------------------------------
 MODELSET
-	TYPE = 10			# 種類
+	TYPE = 16			# 種類
 	POS = 0 0 -50		# 位置
 	ROT = 0 0 0			# 向き
 END_MODELSET
