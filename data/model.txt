@@ -9,7 +9,7 @@ SCRIPT			# この行は絶対消さないこと！
 #------------------------------------------------------------------------------
 # 読み込むテクスチャ数
 #------------------------------------------------------------------------------
-NUM_TEXTURE = 12
+NUM_TEXTURE = 13
 
 #------------------------------------------------------------------------------
 # 読み込むテクスチャファイル名
@@ -26,11 +26,12 @@ TEXTURE_FILENAME = data/TEXTURE/sky000.jpg				# [8]空テクスチャ
 TEXTURE_FILENAME = data/TEXTURE/mountain000.png			# [9]山テクスチャ
 TEXTURE_FILENAME = data/TEXTURE/river000.jpg			# [10]川テクスチャ
 TEXTURE_FILENAME = data/TEXTURE/ground000.jpg			# [11]地面テクスチャ
+TEXTURE_FILENAME = data/TEXTURE/buildings000.png		# [12]背景ビルテクスチャ
 
 #------------------------------------------------------------------------------
 # 読み込むモデル数
 #------------------------------------------------------------------------------
-NUM_MODEL = 17
+NUM_MODEL = 20
 
 #------------------------------------------------------------------------------
 # 読み込むモデルファイル名
@@ -51,9 +52,10 @@ MODEL_FILENAME = data/MODEL/enemy002.x					# [12]敵3
 MODEL_FILENAME = data/MODEL/drone000.x					# [13]ドローン
 MODEL_FILENAME = data/MODEL/star000.x					# [14]星
 MODEL_FILENAME = data/MODEL/platform000.x				# [15]台
-MODEL_FILENAME = data/MODEL/player000.x				# [16]カービィ
-#MODEL_FILENAME = data/MODEL/item000.x					# [17]アイテム1
+MODEL_FILENAME = data/MODEL/player000.x					# [16]カービィ
+MODEL_FILENAME = data/MODEL/item000.x					# [17]アイテム1
 MODEL_FILENAME = data/MODEL/item001.x					# [18]アイテム2
+MODEL_FILENAME = data/MODEL/buildings000.x				# [19]背景ビル
 
 
 
@@ -926,5 +928,14 @@ END_MODELSET
 #-------------------------------------
 # [18]アイテム2
 #-------------------------------------
+
+#-------------------------------------
+# [19]背景ビル
+#-------------------------------------
+MODELSET
+	TYPE = 19			# 種類
+	POS = -800 0 0		# 位置
+	ROT = 0 -90 0			# 向き
+END_MODELSET
 
 END_SCRIPT		# この行は絶対消さないこと！
