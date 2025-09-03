@@ -389,7 +389,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "C:\\Users\\student\\Pictures\\TEXTURE\\3D•\\Œ»_ƒ`[ƒ€»ì_HELLŒ¤‹†Š\\building002.png";
+    "data\\TEXTURE\\building002.png";
    }
   }
   Material {
