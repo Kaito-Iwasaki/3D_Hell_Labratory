@@ -4152,7 +4152,7 @@ Mesh {
    0.150000;0.150000;0.150000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "C:\\Users\\student\\Documents\\3D表\現チーム制作素材\\テクスチャ\\player.png";
+    "DATA\\TEXTURE\\player.png";
    }
   }
  }
