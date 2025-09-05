@@ -827,7 +827,23 @@ MODELSET
 	ROT = 0 180 0			# 向き
 END_MODELSET
 
+MODELSET
+	TYPE = 10			# 種類
+	POS = 100 0 300		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
 
+MODELSET
+	TYPE = 10			# 種類
+	POS = 70 0 320		# 位置
+	ROT = 0 60 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 10			# 種類
+	POS = 130 0 320		# 位置
+	ROT = 0 -60 0		# 向き
+END_MODELSET
 MODELSET
 	TYPE = 10			# 種類
 	POS = 0 0 700		# 位置
@@ -908,6 +924,12 @@ END_MODELSET
 # [11]敵2
 #-------------------------------------
 MODELSET
+	TYPE = 11			# 種類
+	POS = 100 0 350		# 位置
+	ROT = 0 180 0			# 向き
+END_MODELSET
+
+MODELSET
 	TYPE = 11				# 種類
 	POS = 50 0 700		# 位置
 	ROT = 0 220 0			# 向き
@@ -923,20 +945,32 @@ END_MODELSET
 #-------------------------------------
 MODELSET
 	TYPE = 12				# 種類
-	POS = 160 200 50		# 位置
+	POS = 160 220 50		# 位置
 	ROT = 0 -180 0			# 向き
 END_MODELSET
 
 MODELSET
 	TYPE = 12				# 種類
-	POS = 200 220 50		# 位置
+	POS = 200 240 50		# 位置
 	ROT = 0 -180 0			# 向き
 END_MODELSET
 
 MODELSET
 	TYPE = 12				# 種類
-	POS = 240 200 50		# 位置
+	POS = 240 220 50		# 位置
 	ROT = 0 -180 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 12			# 種類
+	POS = 320 220 2430		# 位置
+	ROT = 0 90 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 12			# 種類
+	POS = 320 220 2460		# 位置
+	ROT = 0 90 0		# 向き
 END_MODELSET
 #-------------------------------------
 # [13]ドローン
@@ -1259,7 +1293,7 @@ END_MODELSET
 #-------------------------------------
 MODELSET
 	TYPE = 17			# 種類
-	POS = 180 190 0		# 位置
+	POS = 180 210 0		# 位置
 	ROT = 0 -180 0		# 向き
 END_MODELSET
 
@@ -1272,13 +1306,13 @@ END_MODELSET
 
 MODELSET
 	TYPE = 17			# 種類
-	POS = 120 190 1350	# 位置
+	POS = 120 210 1350	# 位置
 	ROT = 0 -180 0		# 向き
 END_MODELSET
 
 MODELSET
 	TYPE = 17			# 種類
-	POS = -250 190 2450		# 位置
+	POS = -250 210 2430		# 位置
 	ROT = 0 -180 0		# 向き
 END_MODELSET
 #-------------------------------------
@@ -1286,7 +1320,7 @@ END_MODELSET
 #-------------------------------------
 MODELSET
 	TYPE = 18			# 種類
-	POS = 250 200 2450		# 位置
+	POS = 250 220 2430		# 位置
 	ROT = 0 -180 0		# 向き
 END_MODELSET
 #-------------------------------------
