@@ -2220,7 +2220,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "C:\\Users\\student\\Downloads\\enemy001.jpg";
+    "C:\\Users\\student\\Desktop\\3D_Hell_Labratory\\data\\TEXTURE\\enemy001.jpg";
    }
   }
   Material {
