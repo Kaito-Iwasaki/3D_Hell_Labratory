@@ -39,7 +39,7 @@ NUM_MODEL = 20
 MODEL_FILENAME = data/MODEL/billboard000.x				# [0]ビルボード1
 MODEL_FILENAME = data/MODEL/billboard001.x				# [1]ビルボード2
 MODEL_FILENAME = data/MODEL/tower000.x					# [2]タワー
-MODEL_FILENAME = data/MODEL/building000.x				# [3]ビル1
+MODEL_FILENAME = data/MODEL/building002.x				# [3]ビル1
 MODEL_FILENAME = data/MODEL/building001.x				# [4]ビル2
 MODEL_FILENAME = data/MODEL/building002.x				# [5]ビル3
 MODEL_FILENAME = data/MODEL/car000.x					# [6]車1
@@ -677,14 +677,21 @@ END_MODELSET
 
 MODELSET
 	TYPE = 6			# 種類
-	POS = -130 650 2100		# 位置
-	ROT = 0 -90 -20			# 向き
+	POS = -0 660 1000		# 位置
+	ROT = -10 90 0			# 向き
 END_MODELSET
 MODELSET
 	TYPE = 6			# 種類
-	POS = -80 540 2100		# 位置
-	ROT = 0 -90 -20			# 向き
+	POS = 80 690 1080		# 位置
+	ROT = 0 90 0			# 向き
 END_MODELSET
+MODELSET
+	TYPE = 6			# 種類
+	POS = 140 650 1000		# 位置
+	ROT = 10 90 0			# 向き
+END_MODELSET
+
+# タワー周り #
 MODELSET
 	TYPE = 6			# 種類
 	POS = -260 550 2150		# 位置
@@ -695,16 +702,24 @@ MODELSET
 	POS = -320 590 2230		# 位置
 	ROT = 0 -10 -20			# 向き
 END_MODELSET
+
 MODELSET
 	TYPE = 6			# 種類
-	POS = -340 670 2330		# 位置
-	ROT = 0 0 -30			# 向き
+	POS = 310 610 2370		# 位置
+	ROT = 0 -180 -30			# 向き
 END_MODELSET
 MODELSET
 	TYPE = 6			# 種類
-	POS = -310 610 2370		# 位置
-	ROT = 0 0 -30			# 向き
+	POS = 290 560 2170		# 位置
+	ROT = 30 -160 -30			# 向き
 END_MODELSET
+MODELSET
+	TYPE = 6			# 種類
+	POS = 110 620 2140		# 位置
+	ROT = 0 -90 -30			# 向き
+END_MODELSET
+
+
 
 #-------
 # [7]
@@ -722,7 +737,34 @@ END_MODELSET
 
 MODELSET
 	TYPE = 7			# 種類
+	POS = -120 390 400		# 位置
+	ROT = 10 180 40			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 7			# 種類
+	POS = -140 360 360		# 位置
+	ROT = 10 180 30			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 7			# 種類
 	POS = -180 380 1400		# 位置
+	ROT = 0 0 -30			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 7			# 種類
+	POS = -80 540 2100		# 位置
+	ROT = 0 -90 -20			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 7			# 種類
+	POS = 180 670 2140		# 位置
+	ROT = 10 -90 -30			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 7			# 種類
+	POS = -310 610 2370		# 位置
 	ROT = 0 0 -30			# 向き
 END_MODELSET
 
@@ -749,6 +791,22 @@ MODELSET
 	TYPE = 8			# 種類
 	POS = -130 370 1380		# 位置
 	ROT = 0 0 -40			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 8			# 種類
+	POS = -340 670 2330		# 位置
+	ROT = 0 0 -30			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 8			# 種類
+	POS = 250 500 2150		# 位置
+	ROT = 30 -120 -30			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 8			# 種類
+	POS = -130 650 2100		# 位置
+	ROT = 0 -90 -20			# 向き
 END_MODELSET
 
 #-------------------------------------
@@ -929,42 +987,42 @@ END_MODELSET
 
 MODELSET
 	TYPE = 14			# 種類
-	POS = 0 200 940		# 位置
+	POS = 0 230 940		# 位置
 	ROT = 0 0 0			# 向き
 END_MODELSET
 MODELSET
 	TYPE = 14			# 種類
-	POS = 0 200 960		# 位置
+	POS = 0 230 960		# 位置
 	ROT = 0 0 0			# 向き
 END_MODELSET
 MODELSET
 	TYPE = 14			# 種類
-	POS = 0 200 980		# 位置
+	POS = 0 230 980		# 位置
 	ROT = 0 0 0			# 向き
 END_MODELSET
 MODELSET
 	TYPE = 14			# 種類
-	POS = 0 200 1000		# 位置
+	POS = 0 230 1000		# 位置
 	ROT = 0 0 0			# 向き
 END_MODELSET
 MODELSET
 	TYPE = 14			# 種類
-	POS = 0 200 1020		# 位置
+	POS = 0 230 1020		# 位置
 	ROT = 0 0 0			# 向き
 END_MODELSET
 MODELSET
 	TYPE = 14			# 種類
-	POS = 0 200 1040		# 位置
+	POS = 0 230 1040		# 位置
 	ROT = 0 0 0			# 向き
 END_MODELSET
 MODELSET
 	TYPE = 14			# 種類
-	POS = 0 200 1060		# 位置
+	POS = 0 230 1060		# 位置
 	ROT = 0 0 0			# 向き
 END_MODELSET
 MODELSET
 	TYPE = 14			# 種類
-	POS = 0 200 1080		# 位置
+	POS = 0 230 1080		# 位置
 	ROT = 0 0 0			# 向き
 END_MODELSET
 
@@ -1064,5 +1122,44 @@ MODELSET
 	POS = -800 0 0		# 位置
 	ROT = 0 -90 0			# 向き
 END_MODELSET
+MODELSET
+	TYPE = 19			# 種類
+	POS = -800 0 1900		# 位置
+	ROT = 0 -90 0			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 19			# 種類
+	POS = -800 0 3800		# 位置
+	ROT = 0 -90 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 19			# 種類
+	POS = 800 0 0		# 位置
+	ROT = 0 90 0			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 19			# 種類
+	POS = 800 0 1900		# 位置
+	ROT = 0 90 0			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 19			# 種類
+	POS = 800 0 3800		# 位置
+	ROT = 0 90 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 19			# 種類
+	POS = 0 0 -800		# 位置
+	ROT = 0 180 0			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 19			# 種類
+	POS = 0 0 4200		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+
 
 END_SCRIPT		# この行は絶対消さないこと！
