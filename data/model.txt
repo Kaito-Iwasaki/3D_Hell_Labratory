@@ -781,12 +781,83 @@ MODELSET
 	ROT = 0 220 0			# 向き
 END_MODELSET
 
+MODELSET
+	TYPE = 10			# 種類
+	POS = 0 0 2000		# 位置
+	ROT = 0 -180 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 10			# 種類
+	POS = 30 0 2000		# 位置
+	ROT = 0 -180 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 10			# 種類
+	POS = -30 0 2000		# 位置
+	ROT = 0 -180 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 10			# 種類
+	POS = 60 0 2000		# 位置
+	ROT = 0 -180 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 10			# 種類
+	POS = -60 0 2000		# 位置
+	ROT = 0 -180 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 10			# 種類
+	POS = 90 0 2000		# 位置
+	ROT = 0 -180 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 10			# 種類
+	POS = -90 0 2000		# 位置
+	ROT = 0 -180 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 10			# 種類
+	POS = 120 0 2000		# 位置
+	ROT = 0 -180 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 10			# 種類
+	POS = -120 0 2000		# 位置
+	ROT = 0 -180 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 10			# 種類
+	POS = 150 0 2000		# 位置
+	ROT = 0 -180 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 10			# 種類
+	POS = -150 0 2000		# 位置
+	ROT = 0 -180 0			# 向き
+END_MODELSET
 #-------------------------------------
 # [11]敵2
 #-------------------------------------
 MODELSET
 	TYPE = 11				# 種類
-		POS = 180 190 0		# 位置
+	POS = 50 0 700		# 位置
+	ROT = 0 220 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 11			# 種類
+	POS = 0 0 2100		# 位置
 	ROT = 0 -180 0			# 向き
 END_MODELSET
 #-------------------------------------
@@ -794,8 +865,21 @@ END_MODELSET
 #-------------------------------------
 MODELSET
 	TYPE = 12				# 種類
-	POS = -0 0 0			# 位置
-	ROT = 0 180 0			# 向き
+	POS = 160 200 50		# 位置
+	ROT = 0 -180 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 12				# 種類
+	POS = 200 220 50		# 位置
+	ROT = 0 -180 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 12				# 種類
+	POS = 240 200 50		# 位置
+	ROT = 0 -180 0			# 向き
+END_MODELSET
 #-------------------------------------
 # [13]ドローン
 #-------------------------------------
