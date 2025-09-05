@@ -39,7 +39,7 @@ NUM_MODEL = 20
 MODEL_FILENAME = data/MODEL/billboard000.x				# [0]ビルボード1
 MODEL_FILENAME = data/MODEL/billboard001.x				# [1]ビルボード2
 MODEL_FILENAME = data/MODEL/tower000.x					# [2]タワー
-MODEL_FILENAME = data/MODEL/building002.x				# [3]ビル1
+MODEL_FILENAME = data/MODEL/building000.x				# [3]ビル1
 MODEL_FILENAME = data/MODEL/building001.x				# [4]ビル2
 MODEL_FILENAME = data/MODEL/building002.x				# [5]ビル3
 MODEL_FILENAME = data/MODEL/car000.x					# [6]車1
@@ -597,31 +597,23 @@ END_MODELSET
 
 MODELSET
 	TYPE = 4			# 種類
-	POS = -120 0 1000		# 位置
+	POS = -110 0 1020		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 4			# 種類
+	POS = -110 0 1130		# 位置
 	ROT = 0 0 0			# 向き
 END_MODELSET
 
 MODELSET
 	TYPE = 4			# 種類
-	POS = -90 0 1130		# 位置
+	POS = 110 0 1020		# 位置
 	ROT = 0 0 0			# 向き
 END_MODELSET
-
 MODELSET
 	TYPE = 4			# 種類
-	POS = 90 0 1210		# 位置
-	ROT = 0 0 0			# 向き
-END_MODELSET
-
-MODELSET
-	TYPE = 4			# 種類
-	POS = 130 0 1120		# 位置
-	ROT = 0 0 0			# 向き
-END_MODELSET
-
-MODELSET
-	TYPE = 4			# 種類
-	POS = 180 0 1020		# 位置
+	POS = 110 0 1130		# 位置
 	ROT = 0 0 0			# 向き
 END_MODELSET
 
@@ -630,8 +622,8 @@ END_MODELSET
 #-------------------------------------
 MODELSET
 	TYPE = 5			# 種類
-	POS = 0 0 340		# 位置
-	ROT = 0 0 0			# 向き
+	POS = -500 0 340		# 位置
+	ROT = 0 -90 0			# 向き
 END_MODELSET
 
 #-------------------------------------
