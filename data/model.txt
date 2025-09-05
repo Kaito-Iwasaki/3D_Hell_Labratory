@@ -1459,9 +1459,6 @@ MODELSET
 END_MODELSET
 
 
-
-
-
 MODELSET
 	TYPE = 14			# Ží—Þ
 	POS = 140 80 680		# ˆÊ’u
