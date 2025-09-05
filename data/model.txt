@@ -1727,7 +1727,7 @@ END_MODELSET
 # [20]箱
 #-------------------------------------
 MODELSET
-	TYPE = 20			# 種類
+	TYPE = 20			# 種類（縦）
 	POS = -130 0 0		# 位置
 	ROT = 0 0 0			# 向き
 END_MODELSET
@@ -1736,5 +1736,23 @@ MODELSET
 	POS = -130 0 30		# 位置
 	ROT = 0 0 0			# 向き
 END_MODELSET
+
+MODELSET
+	TYPE = 20			# 種類(横)
+	POS = 30 0 540		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+MODELSET
+	TYPE = 20			# 種類
+	POS = 60 0 540		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 20			# 種類（単）
+	POS = -70 0 0		# 位置
+	ROT = 0 0 0			# 向き
+END_MODELSET
+
 
 END_SCRIPT		# この行は絶対消さないこと！
