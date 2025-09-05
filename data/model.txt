@@ -999,14 +999,8 @@ END_MODELSET
 
 MODELSET
 	TYPE = 13			# 種類
-	POS = -120 275 1225		# 位置
+	POS = -120 300 1225		# 位置
 	ROT = 0 15 0		# 向き
-END_MODELSET
-
-MODELSET
-	TYPE = 13			# 種類
-	POS = 75 255 1000		# 位置
-	ROT = 0 170 0		# 向き
 END_MODELSET
 
 MODELSET
@@ -1053,8 +1047,116 @@ END_MODELSET
 
 MODELSET
 	TYPE = 13			# 種類
-	POS = 125 330 1065		# 位置
+	POS = 115 325 1120		# 位置
+	ROT = 0 90 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = -115 325 1015		# 位置
 	ROT = 0 -90 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = 300 300 2250		# 位置
+	ROT = 0 0 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = -150 100 1565		# 位置
+	ROT = 0 0 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = 150 100 1845		# 位置
+	ROT = 0 180 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = -400 225 215		# 位置
+	ROT = 0 25 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = -400 225 500		# 位置
+	ROT = 0 -25 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = -5 450 450		# 位置
+	ROT = 0 -90 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = 0 450 2000		# 位置
+	ROT = 0 90 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = 450 800 2325		# 位置
+	ROT = 0 150 -25		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = 225 300 2625		# 位置
+	ROT = 0 45 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = 175 425 2415		# 位置
+	ROT = 0 60 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = -300 315 2200		# 位置
+	ROT = 0 125 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = -250 275 1950		# 位置
+	ROT = 0 90 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = 250 275 1350		# 位置
+	ROT = 0 -90 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = -250 275 1350		# 位置
+	ROT = 0 0 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = 250 275 1950		# 位置
+	ROT = 0 180 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = -225 250 2050		# 位置
+	ROT = 0 -25 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = 225 250 2050		# 位置
+	ROT = 0 205 0		# 向き
 END_MODELSET
 
 #-------------------------------------
