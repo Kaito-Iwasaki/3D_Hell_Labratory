@@ -947,6 +947,54 @@ MODELSET
 	ROT = 0 130 0		# 向き
 END_MODELSET
 
+MODELSET
+	TYPE = 13			# 種類
+	POS = 115 150 275		# 位置
+	ROT = 0 130 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = 100 700 2350		# 位置
+	ROT = 0 145 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = -120 530 2225		# 位置
+	ROT = 0 30 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = -185 250 900		# 位置
+	ROT = 0 15 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = -120 275 1225		# 位置
+	ROT = 0 15 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = 75 255 1000		# 位置
+	ROT = 0 170 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = 325 225 125		# 位置
+	ROT = 0 160 0		# 向き
+END_MODELSET
+
+MODELSET
+	TYPE = 13			# 種類
+	POS = -175 725 2450		# 位置
+	ROT = 0 205 0		# 向き
+END_MODELSET
+
 #-------------------------------------
 # [14]星
 #-------------------------------------
