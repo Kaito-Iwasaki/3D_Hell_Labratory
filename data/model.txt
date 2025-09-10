@@ -1259,12 +1259,6 @@ END_MODELSET
 
 MODELSET
 	TYPE = 10			# Ží—Þ
-	POS = -150 0 1920	# ˆÊ’u
-	ROT = 0 -180 0		# Œü‚«
-END_MODELSET
-
-MODELSET
-	TYPE = 10			# Ží—Þ
 	POS = 220 220 1570	# ˆÊ’u
 	ROT = 0 -180 0		# Œü‚«
 END_MODELSET
